@@ -1,0 +1,54 @@
+{
+ "stations": [
+  "Jabal Ali",
+  "Al Furjan",
+  "Discovery Gardens",
+  "The Gardens",
+  "Ibn Battuta"
+ ],
+ "clusters": [
+  "Zen",
+  "Mediterranean",
+  "Contemporary",
+  "Cactus",
+  "Mogul",
+  "Mesoamerican"
+ ],
+ "emergency": {
+  "police": "999",
+  "ambulance": "998",
+  "fire": "997"
+ },
+ "routes": {
+  "verify_in": "RTA Dubai app"
+ },
+ "metro": {
+  "route2020_branch": [
+   "Jabal Ali (interchange)",
+   "The Gardens",
+   "Discovery Gardens",
+   "Al Furjan",
+   "Jumeirah Golf Estates",
+   "Dubai Investment Park",
+   "Expo 2020"
+  ],
+  "red_line_branch_beyond_jabal_ali": [
+   "Ibn Battuta",
+   "Energy",
+   "Danube",
+   "UAE Exchange (now Life Pharmacy)"
+  ],
+  "interchange": "Jabal Ali (may display as National Paints under RTA naming rights)",
+  "rule": "From Discovery Gardens, The Gardens or Al Furjan, change platforms at Jabal Ali to reach Danube, Energy, Ibn Battuta or the terminus. Verify order and names in the RTA app.",
+  "sources": [
+   "rta.ae Route 2020 page",
+   "Khaleej Times and Gulf News RTA announcements"
+  ]
+ },
+ "jafza_passes": {
+  "PAC_aed_per_year": 410,
+  "TAC_aed_per_month_plus_fee": "100 + 10",
+  "portal": "Dubai Trade",
+  "visitor_passes": "Tasreeh"
+ }
+}
