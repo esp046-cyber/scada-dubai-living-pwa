@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://YOURUSER.github.io/scada-bedspacer-pwa/sitemap.xml
+Sitemap: https://esp046-cyber.github.io/scada-dubai-living-pwa/sitemap.xml
