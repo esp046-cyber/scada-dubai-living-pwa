@@ -1,0 +1,958 @@
+{
+ "version": 3,
+ "categories": {
+  "jafza": "JAFZA Gate",
+  "commute": "Commute",
+  "bedspace": "Bedspace",
+  "scada": "SCADA On-Call",
+  "legal": "Legal & Dewa",
+  "budget": "Groceries/Budget"
+ },
+ "tips": [
+  {
+   "id": 1,
+   "category": "commute",
+   "title": "Switch at Jabal Ali for JAFZA",
+   "body": "Discovery Gardens, The Gardens and Al Furjan are on the Route 2020 branch. Trains there run to and from Jabal Ali (interchange; RTA naming rights may show it as National Paints). To reach JAFZA side stations such as Danube, Energy and the terminus (UAE Exchange, now Life Pharmacy), change platforms at Jabal Ali. Confirm station order and names in the RTA app.",
+   "sev": "warn",
+   "link": "https://www.rta.ae",
+   "linkText": "Open RTA"
+  },
+  {
+   "id": 2,
+   "category": "commute",
+   "title": "Pick the closest station",
+   "body": "The Gardens and Discovery Gardens stations serve different clusters. Walk both once at 7am before signing so you know the real door-to-platform time.",
+   "sev": "ok"
+  },
+  {
+   "id": 3,
+   "category": "commute",
+   "title": "Nol card tiers",
+   "body": "Silver is a standard rechargeable card; Gold gives a premium cabin and costs more per trip. Red tickets are for occasional rides only.",
+   "sev": "ok"
+  },
+  {
+   "id": 4,
+   "category": "commute",
+   "title": "Top up in advance",
+   "body": "Keep at least AED 30 on your Nol card. Card machines at stations can queue badly in rush hour; the Nol Pay app also tops up.",
+   "sev": "ok"
+  },
+  {
+   "id": 5,
+   "category": "commute",
+   "title": "Feeder buses are verifiable",
+   "body": "Feeder routes (including F-numbered ones around Jebel Ali and Ibn Battuta) change. Check route numbers and timetables in the RTA app before relying on one.",
+   "sev": "ok"
+  },
+  {
+   "id": 6,
+   "category": "commute",
+   "title": "Ibn Battuta morning rush",
+   "body": "Ibn Battuta is on the Red Line side beyond Jabal Ali, not on the Route 2020 branch, so from Discovery Gardens you also change at Jabal Ali. Mornings are busy: board near the stairs you will use at the other end.",
+   "sev": "ok"
+  },
+  {
+   "id": 7,
+   "category": "commute",
+   "title": "Women and Family cabin",
+   "body": "Carriages marked for women and children are fined if entered by others. Gold cabin boarding rules also apply.",
+   "sev": "ok"
+  },
+  {
+   "id": 8,
+   "category": "commute",
+   "title": "Gate access matters",
+   "body": "JAFZA has several gates and each facility has its own entry permit process. Get your gate and permit details from your employer HR or PRO.",
+   "sev": "ok"
+  },
+  {
+   "id": 9,
+   "category": "commute",
+   "title": "Carry your site pass",
+   "body": "Keep Emirates ID and company site pass together. Guards at JAFZA and port areas may check both.",
+   "sev": "ok"
+  },
+  {
+   "id": 10,
+   "category": "commute",
+   "title": "Last-mile options",
+   "body": "From stations to industrial sites, check company shuttles first, then taxis and ride-hailing. Share a ride with colleagues to cut fares.",
+   "sev": "ok"
+  },
+  {
+   "id": 11,
+   "category": "commute",
+   "title": "Ride-hailing surge windows",
+   "body": "Fares rise around 6:30 to 8:30am and 5 to 7pm. Walking 5 minutes away from a mall or station entrance often lowers the quote.",
+   "sev": "ok"
+  },
+  {
+   "id": 12,
+   "category": "commute",
+   "title": "Sheikh Zayed Road (E11) timing",
+   "body": "Leave before 6:45am or after 9am if driving near Jebel Ali. Accidents on E11 can add 40 minutes with no warning.",
+   "sev": "ok"
+  },
+  {
+   "id": 13,
+   "category": "commute",
+   "title": "Yalayis Street (D57) awareness",
+   "body": "D57 carries heavy truck traffic for industrial areas. Expect slower lanes and stricter checks on trucks, so avoid it at shift change.",
+   "sev": "ok"
+  },
+  {
+   "id": 14,
+   "category": "commute",
+   "title": "Shutdown call-outs",
+   "body": "During plant shutdowns you may be called at night. Keep a taxi app, Nol balance and a small cash reserve ready.",
+   "sev": "ok"
+  },
+  {
+   "id": 15,
+   "category": "commute",
+   "title": "Night travel",
+   "body": "The Metro stops running late at night. Know the last train time for your return leg before a night site visit.",
+   "sev": "ok"
+  },
+  {
+   "id": 16,
+   "category": "commute",
+   "title": "Shift rotations",
+   "body": "If your site rotates shifts, ask the landlord or main tenant for a room-sharing mix that matches yours so sleep is not disturbed.",
+   "sev": "ok"
+  },
+  {
+   "id": 17,
+   "category": "commute",
+   "title": "Heat and PPE",
+   "body": "Summer commutes mean 40C+ outside. Carry water, keep PPE in a breathable bag and change shirts if you go on to meetings.",
+   "sev": "ok"
+  },
+  {
+   "id": 18,
+   "category": "commute",
+   "title": "Salik and parking",
+   "body": "If a colleague drives you, offer to split Salik and parking. Unpaid fines can follow the driver and car owner, not passengers.",
+   "sev": "ok"
+  },
+  {
+   "id": 19,
+   "category": "commute",
+   "title": "Friday timing",
+   "body": "Friday Metro hours and prayer-time traffic differ. Check weekend schedules in the RTA app before planning site visits.",
+   "sev": "ok"
+  },
+  {
+   "id": 20,
+   "category": "commute",
+   "title": "Taxi vs metro cost",
+   "body": "A taxi from Discovery Gardens to JAFZA costs far more than a monthly Nol budget. Use taxis only when you are carrying gear.",
+   "sev": "ok"
+  },
+  {
+   "id": 21,
+   "category": "commute",
+   "title": "Offline maps",
+   "body": "Download Google Maps offline for Jebel Ali and Dubai South. Industrial zones have patchy signal inside warehouses.",
+   "sev": "ok"
+  },
+  {
+   "id": 22,
+   "category": "bedspace",
+   "title": "Cluster by cluster",
+   "body": "Discovery Gardens clusters (Zen, Mediterranean, Contemporary, Cactus, Mogul, Mesoamerican) differ in distance to the metro. Walk each one before you decide.",
+   "sev": "ok"
+  },
+  {
+   "id": 23,
+   "category": "bedspace",
+   "title": "Zen and Cactus layout",
+   "body": "Smaller clusters tend to be quieter, but check lift access and parking, which differ from building to building.",
+   "sev": "ok"
+  },
+  {
+   "id": 24,
+   "category": "bedspace",
+   "title": "Mediterranean and Contemporary",
+   "body": "These clusters sit closer to the main roads and the Pavilion area. Expect more footfall and traffic noise at the edges.",
+   "sev": "ok"
+  },
+  {
+   "id": 25,
+   "category": "bedspace",
+   "title": "Mogul and Mesoamerican",
+   "body": "Check noise from neighbours and the distance to the nearest station exit. Visit in the evening to hear the real situation.",
+   "sev": "ok"
+  },
+  {
+   "id": 26,
+   "category": "bedspace",
+   "title": "The Gardens vs Discovery Gardens",
+   "body": "The Gardens is closer to Ibn Battuta and often a bit pricier. Compare walking time, not just rent.",
+   "sev": "ok"
+  },
+  {
+   "id": 27,
+   "category": "bedspace",
+   "title": "Al Furjan option",
+   "body": "Al Furjan stations serve newer communities with lifts and wider roads. Rents are often higher but crowds are thinner.",
+   "sev": "ok"
+  },
+  {
+   "id": 28,
+   "category": "bedspace",
+   "title": "Bedspace vs partition vs room",
+   "body": "A bedspace is a shared bed in a room, a partition is a divided room, a private room is a lockable room. Prices and privacy differ a lot.",
+   "sev": "ok"
+  },
+  {
+   "id": 29,
+   "category": "bedspace",
+   "title": "Ask for a written agreement",
+   "body": "Get a signed note with rent, deposit, notice period, bills split and house rules. WhatsApp-only deals are hard to enforce.",
+   "sev": "ok"
+  },
+  {
+   "id": 30,
+   "category": "bedspace",
+   "title": "Ejari reality",
+   "body": "Ejari registers the main tenancy. Bedspaces and partitions are often restricted by Dubai rules and building bylaws, so check with the main tenant and landlord.",
+   "sev": "alarm"
+  },
+  {
+   "id": 31,
+   "category": "bedspace",
+   "title": "Sub-letting consent",
+   "body": "The main tenant should have the landlord's written consent to sub-let. Without it you can be asked to leave at short notice.",
+   "sev": "alarm"
+  },
+  {
+   "id": 32,
+   "category": "bedspace",
+   "title": "Security deposit",
+   "body": "Pay the deposit by transfer and get a receipt. Agree in writing how and when it is returned and what deductions apply.",
+   "sev": "warn"
+  },
+  {
+   "id": 33,
+   "category": "bedspace",
+   "title": "Notice etiquette",
+   "body": "Give notice in writing, at least a month ahead or as agreed. Being polite improves your chance of getting the deposit back.",
+   "sev": "ok"
+  },
+  {
+   "id": 34,
+   "category": "bedspace",
+   "title": "Occupancy check",
+   "body": "Ask how many people share the room and the flat. Overcrowding breaks rules and drains hot water, internet and patience.",
+   "sev": "warn"
+  },
+  {
+   "id": 35,
+   "category": "bedspace",
+   "title": "Inspect before paying",
+   "body": "Check AC, water heater, locks, windows, mould, pests and fire exit. Take dated photos and send them to the landlord.",
+   "sev": "ok"
+  },
+  {
+   "id": 36,
+   "category": "bedspace",
+   "title": "Locker and key",
+   "body": "Ask for a lockable cupboard or a personal safe. Do not leave licence dongles or passports in open rooms.",
+   "sev": "ok"
+  },
+  {
+   "id": 37,
+   "category": "bedspace",
+   "title": "Women-only and family buildings",
+   "body": "Some buildings restrict visitors or specific groups. Ask about building rules before paying a deposit.",
+   "sev": "ok"
+  },
+  {
+   "id": 38,
+   "category": "bedspace",
+   "title": "Cleaning rota",
+   "body": "Agree a written cleaning rota for kitchen, bathroom and fridge. Disputes about chores are the commonest reason for moves.",
+   "sev": "ok"
+  },
+  {
+   "id": 39,
+   "category": "bedspace",
+   "title": "Visitors policy",
+   "body": "Agree rules for guests and overnight stays up front. Registering guests is not required in most private shares, but follow building rules.",
+   "sev": "ok"
+  },
+  {
+   "id": 40,
+   "category": "bedspace",
+   "title": "Pest control",
+   "body": "Ask who handles pest control and how often. Report cockroaches early and photograph the problem.",
+   "sev": "ok"
+  },
+  {
+   "id": 41,
+   "category": "bedspace",
+   "title": "Maintenance chain",
+   "body": "Know who to call for AC and plumbing: main tenant, landlord or building management. Keep a screenshot of every request.",
+   "sev": "ok"
+  },
+  {
+   "id": 42,
+   "category": "bedspace",
+   "title": "Moving out checklist",
+   "body": "Photograph the room, clear your bills, return keys and collect your deposit receipt. Do this on a weekday morning.",
+   "sev": "ok"
+  },
+  {
+   "id": 43,
+   "category": "scada",
+   "title": "On-call in a shared room",
+   "body": "Use phone silent alerts, vibrate-only alarms and a smartwatch for pings. Agree call-out hours with roommates.",
+   "sev": "tech"
+  },
+  {
+   "id": 44,
+   "category": "scada",
+   "title": "Noise-cancelling gear",
+   "body": "Over-ear noise-cancelling headphones let you sleep after night shutdown calls. Foam earplugs are a cheap backup.",
+   "sev": "tech"
+  },
+  {
+   "id": 45,
+   "category": "scada",
+   "title": "Compact workstation",
+   "body": "A fold-away laptop stand, external keyboard and a small monitor make a bed corner usable. Keep cables tidy so roommates do not trip.",
+   "sev": "tech"
+  },
+  {
+   "id": 46,
+   "category": "scada",
+   "title": "Laptop security",
+   "body": "Use a cable lock, full-disk encryption and a strong login. Never leave your work laptop in the room while at work if a safe is available.",
+   "sev": "warn"
+  },
+  {
+   "id": 47,
+   "category": "scada",
+   "title": "Hardware dongles",
+   "body": "Siemens, Rockwell and Wonderware licences may use USB dongles or software keys. Keep them in your bag, not in the room.",
+   "sev": "alarm"
+  },
+  {
+   "id": 48,
+   "category": "scada",
+   "title": "Backup your projects",
+   "body": "Copy PLC and HMI project backups to an encrypted drive and to your company storage, respecting your employer's data policy.",
+   "sev": "tech"
+  },
+  {
+   "id": 49,
+   "category": "scada",
+   "title": "Never mix personal and plant data",
+   "body": "Do not store plant drawings or P&IDs on personal phones or cloud accounts unless your company allows it.",
+   "sev": "warn"
+  },
+  {
+   "id": 50,
+   "category": "scada",
+   "title": "VPN readiness",
+   "body": "Test your company VPN at home and on mobile hotspot. Know who to call if it fails during an alarm.",
+   "sev": "tech"
+  },
+  {
+   "id": 51,
+   "category": "scada",
+   "title": "du vs e&",
+   "body": "Check coverage in your cluster with a prepaid SIM before committing. Latency and speed vary by building and floor.",
+   "sev": "tech"
+  },
+  {
+   "id": 52,
+   "category": "scada",
+   "title": "Home internet pooling",
+   "body": "If Wi-Fi is shared, ask for a router with QoS or a personal hotspot as a backup for remote diagnostics.",
+   "sev": "tech"
+  },
+  {
+   "id": 53,
+   "category": "scada",
+   "title": "Hotspot data plan",
+   "body": "Buy a data plan with enough GB for remote sessions. Remote HMI and historian queries can use more than expected.",
+   "sev": "tech"
+  },
+  {
+   "id": 54,
+   "category": "scada",
+   "title": "Power backup",
+   "body": "Keep a power bank and a small UPS for the laptop and router. A short outage can drop a remote session mid-change.",
+   "sev": "tech"
+  },
+  {
+   "id": 55,
+   "category": "scada",
+   "title": "Heat and electronics",
+   "body": "Dubai summer heat is hard on laptops. Do not leave gear in cars, and keep vents clear when on a bed.",
+   "sev": "tech"
+  },
+  {
+   "id": 56,
+   "category": "scada",
+   "title": "Alarm hygiene",
+   "body": "Set separate ringtones for critical and non-critical alarms. Use Do Not Disturb with VIP exceptions for plant numbers.",
+   "sev": "tech"
+  },
+  {
+   "id": 57,
+   "category": "scada",
+   "title": "Sleep strategy",
+   "body": "Go to bed at the same time on non-call nights. Short naps after a night call keep you safe on the road next day.",
+   "sev": "tech"
+  },
+  {
+   "id": 58,
+   "category": "scada",
+   "title": "Document handovers",
+   "body": "Write short shift notes in the company tool. It protects you if something is blamed on a changeover.",
+   "sev": "tech"
+  },
+  {
+   "id": 59,
+   "category": "scada",
+   "title": "Tool kit essentials",
+   "body": "Keep a USB-serial adapter, Ethernet cable, small switch, screwdrivers and spare fuses in one case.",
+   "sev": "tech"
+  },
+  {
+   "id": 60,
+   "category": "scada",
+   "title": "Certifications",
+   "body": "Keep soft copies of your engineering certificates and site inductions. HR and clients ask for them often.",
+   "sev": "tech"
+  },
+  {
+   "id": 61,
+   "category": "scada",
+   "title": "Safe sharing of screens",
+   "body": "Do not take remote calls with plant screens visible to roommates. Use a privacy screen or a headset.",
+   "sev": "tech"
+  },
+  {
+   "id": 62,
+   "category": "scada",
+   "title": "Fire and electrical safety",
+   "body": "Do not overload sockets with chargers, kettles and heaters. Use surge-protected extension leads rated for the load.",
+   "sev": "tech"
+  },
+  {
+   "id": 63,
+   "category": "scada",
+   "title": "Learn the site",
+   "body": "Spend one shift shadowing field techs. Knowing physical layout makes remote diagnosis faster and your roommates happier.",
+   "sev": "tech"
+  },
+  {
+   "id": 64,
+   "category": "legal",
+   "title": "Emirates ID process",
+   "body": "Your employer's PRO normally handles visa, medical test and Emirates ID. Ask for the application status and keep the receipts.",
+   "sev": "ok"
+  },
+  {
+   "id": 65,
+   "category": "legal",
+   "title": "Medical fitness test",
+   "body": "The test is done at an approved centre. Ask your PRO which centre is closest to Jebel Ali and what to bring.",
+   "sev": "ok"
+  },
+  {
+   "id": 66,
+   "category": "legal",
+   "title": "Residence visa and tenancy",
+   "body": "Your visa address and your living address may differ. Keep your tenancy or room agreement in case an authority asks.",
+   "sev": "ok"
+  },
+  {
+   "id": 67,
+   "category": "legal",
+   "title": "UAE Pass",
+   "body": "Set up UAE Pass early. It gives access to government services and digital document signing.",
+   "sev": "ok"
+  },
+  {
+   "id": 68,
+   "category": "legal",
+   "title": "Dubai REST",
+   "body": "Dubai REST is the official Dubai Land Department app for rental services. Check it for rental information and updates.",
+   "sev": "ok"
+  },
+  {
+   "id": 69,
+   "category": "legal",
+   "title": "Dubai Police app",
+   "body": "The Dubai Police app reports non-urgent issues, handles traffic fines and offers services. Emergency number is 999.",
+   "sev": "ok"
+  },
+  {
+   "id": 70,
+   "category": "legal",
+   "title": "RTA Dubai app",
+   "body": "Use the RTA app for Nol top-ups, journey planning, parking and fines. Keep notifications on for service changes.",
+   "sev": "ok"
+  },
+  {
+   "id": 71,
+   "category": "legal",
+   "title": "Careem and Botim",
+   "body": "Careem handles rides and food. Botim supports calls and payments. Check current availability in your area.",
+   "sev": "ok"
+  },
+  {
+   "id": 72,
+   "category": "legal",
+   "title": "DEWA bills",
+   "body": "DEWA covers electricity and water. Ask whether the bill is shared equally or by use, and who pays the connection deposit.",
+   "sev": "ok"
+  },
+  {
+   "id": 73,
+   "category": "legal",
+   "title": "Empower cooling",
+   "body": "Many communities use district cooling billed through Empower. Ask how it is divided and whether it is included in rent.",
+   "sev": "ok"
+  },
+  {
+   "id": 74,
+   "category": "legal",
+   "title": "Gas safety",
+   "body": "Do not store unauthorised cylinders. Follow building rules and use only approved gas supply and appliances.",
+   "sev": "alarm"
+  },
+  {
+   "id": 75,
+   "category": "legal",
+   "title": "Alcohol and conduct rules",
+   "body": "Follow local laws on alcohol, public behaviour and noise. A neighbour complaint can lead to fines or police contact.",
+   "sev": "warn"
+  },
+  {
+   "id": 76,
+   "category": "legal",
+   "title": "Rental disputes",
+   "body": "Rental disputes can be raised through the Rental Dispute Settlement Centre, but bedspace arrangements may not be covered. Keep proof of payments.",
+   "sev": "warn"
+  },
+  {
+   "id": 77,
+   "category": "legal",
+   "title": "Tenancy contracts",
+   "body": "If you sign a room contract, read the notice, deposit and renewal terms. Ask for a copy before paying.",
+   "sev": "ok"
+  },
+  {
+   "id": 78,
+   "category": "legal",
+   "title": "Bank and salary",
+   "body": "Open a salary account early. Keep the bank app, email and phone number updated to avoid being locked out.",
+   "sev": "ok"
+  },
+  {
+   "id": 79,
+   "category": "legal",
+   "title": "Remittance and fees",
+   "body": "Compare exchange houses and bank apps before sending money home. Fees and rates differ every day.",
+   "sev": "ok"
+  },
+  {
+   "id": 80,
+   "category": "legal",
+   "title": "Health insurance",
+   "body": "Confirm what your insurance covers and which clinics are in network near Jebel Ali. Keep your card and Emirates ID together.",
+   "sev": "ok"
+  },
+  {
+   "id": 81,
+   "category": "legal",
+   "title": "Driving licence",
+   "body": "If you plan to drive, check whether your home licence can be converted. Some nationalities need to retake tests.",
+   "sev": "ok"
+  },
+  {
+   "id": 82,
+   "category": "legal",
+   "title": "Document copies",
+   "body": "Keep scans of passport, visa, Emirates ID and contract on your phone and cloud. It saves time when originals are with PRO.",
+   "sev": "ok"
+  },
+  {
+   "id": 83,
+   "category": "legal",
+   "title": "Scams",
+   "body": "Beware of agents asking for large cash deposits without receipts or contracts. Verify listings and meet in person.",
+   "sev": "alarm"
+  },
+  {
+   "id": 84,
+   "category": "legal",
+   "title": "Emergency numbers",
+   "body": "Police 999, ambulance 998, fire 997. Save your company emergency contact and site security desk too.",
+   "sev": "ok"
+  },
+  {
+   "id": 85,
+   "category": "budget",
+   "title": "Budget baseline",
+   "body": "Bedspace rent, Nol, food, SIM and bills add up. Write a monthly budget and keep a buffer for emergencies.",
+   "sev": "ok"
+  },
+  {
+   "id": 86,
+   "category": "budget",
+   "title": "DEWA split fairness",
+   "body": "Ask for a clear utility split before moving in. Fixed monthly shares avoid arguments over summer AC bills.",
+   "sev": "ok"
+  },
+  {
+   "id": 87,
+   "category": "budget",
+   "title": "Wi-Fi sharing",
+   "body": "Split internet equally and set a house password routine. Ask for the router login so you can check speeds.",
+   "sev": "ok"
+  },
+  {
+   "id": 88,
+   "category": "budget",
+   "title": "Carrefour Market",
+   "body": "Carrefour Market in the Pavilion area suits weekly shops. Check weekly promotions and use the loyalty app.",
+   "sev": "ok"
+  },
+  {
+   "id": 89,
+   "category": "budget",
+   "title": "West Zone",
+   "body": "West Zone Fresh is useful for fast daily groceries and fresh produce. Compare prices on staples before bulk-buying.",
+   "sev": "ok"
+  },
+  {
+   "id": 90,
+   "category": "budget",
+   "title": "Grandiose",
+   "body": "Grandiose in Discovery Gardens Pavilion is handy for rice, spices and South Asian staples. Compare unit prices with Carrefour.",
+   "sev": "ok"
+  },
+  {
+   "id": 91,
+   "category": "budget",
+   "title": "Meal prep",
+   "body": "Cook rice, lentils and chicken in bulk on a day off. Use airtight boxes and label them with dates.",
+   "sev": "ok"
+  },
+  {
+   "id": 92,
+   "category": "budget",
+   "title": "Fridge etiquette",
+   "body": "Label food and keep a personal shelf. Clear out old items weekly to avoid pests.",
+   "sev": "ok"
+  },
+  {
+   "id": 93,
+   "category": "budget",
+   "title": "Water",
+   "body": "Tap water is safe in many buildings, but many residents prefer filtered or bottled water. Ask roommates before buying a dispenser.",
+   "sev": "ok"
+  },
+  {
+   "id": 94,
+   "category": "budget",
+   "title": "Laundry",
+   "body": "Use building laundry or a nearby laundromat if there is no washer. Agree on a shared machine schedule.",
+   "sev": "ok"
+  },
+  {
+   "id": 95,
+   "category": "budget",
+   "title": "Eating out",
+   "body": "Cafeterias and small restaurants offer cheap meals. Use delivery apps only when offers cover the fee.",
+   "sev": "ok"
+  },
+  {
+   "id": 96,
+   "category": "budget",
+   "title": "Mobile plans",
+   "body": "Compare prepaid and postpaid plans. Choose one with local calling and data matching your remote needs.",
+   "sev": "ok"
+  },
+  {
+   "id": 97,
+   "category": "budget",
+   "title": "Remote worker coffee",
+   "body": "Many cafes allow laptop use but have no site security. Do not log into SCADA systems from public Wi-Fi.",
+   "sev": "ok"
+  },
+  {
+   "id": 98,
+   "category": "budget",
+   "title": "Gym options",
+   "body": "Community gyms or park workouts cost less than premium gyms. Check heat and humidity before outdoor sessions.",
+   "sev": "ok"
+  },
+  {
+   "id": 99,
+   "category": "budget",
+   "title": "Public holidays",
+   "body": "Know UAE public holidays and Ramadan working hours. Plan groceries and travel before holiday crowds.",
+   "sev": "ok"
+  },
+  {
+   "id": 100,
+   "category": "budget",
+   "title": "Ramadan",
+   "body": "Eateries open late in the day and traffic patterns shift. Be considerate about eating and drinking in public during fasting hours.",
+   "sev": "ok"
+  },
+  {
+   "id": 101,
+   "category": "budget",
+   "title": "Emergency fund",
+   "body": "Keep one month of rent in cash or an easy-access account. Job changes and deposits come with delays.",
+   "sev": "ok"
+  },
+  {
+   "id": 102,
+   "category": "budget",
+   "title": "Shared purchases",
+   "body": "Split costs for cleaning supplies, toilet paper and water. A shared spreadsheet or app avoids disputes.",
+   "sev": "ok"
+  },
+  {
+   "id": 103,
+   "category": "budget",
+   "title": "Selling and moving",
+   "body": "Use Dubizzle or social groups to buy and sell used furniture. Meet in public places and inspect items.",
+   "sev": "ok"
+  },
+  {
+   "id": 104,
+   "category": "budget",
+   "title": "Savings target",
+   "body": "Save a fixed amount on payday before spending. Automatic transfers help in a high-cost city.",
+   "sev": "ok"
+  },
+  {
+   "id": 105,
+   "category": "budget",
+   "title": "Look beyond the hype",
+   "body": "Prices and rules change. Verify rents, bills and regulations with official sources before you commit.",
+   "sev": "ok"
+  },
+  {
+   "id": 106,
+   "category": "jafza",
+   "title": "Permanent Access Card (PAC)",
+   "sev": "warn",
+   "body": "JAFZA's guide lists a PAC for staff it does not sponsor at AED 410 for one year (AED 610 for two, AED 810 for three). Your company admin applies on Dubai Trade. Ask HR for status, you cannot apply yourself.",
+   "link": "https://www.dubaitrade.ae",
+   "linkText": "Open Dubai Trade"
+  },
+  {
+   "id": 107,
+   "category": "jafza",
+   "title": "Temporary Access Card (TAC)",
+   "sev": "warn",
+   "body": "TAC is AED 100 per month plus a AED 10 fee, valid 1 to 6 months, for non-sponsored staff of sister or parent companies. JAFZA says it is for managerial and admin roles, not labourers, so ask HR which pass fits an engineer on commissioning work.",
+   "link": "https://www.dubaitrade.ae",
+   "linkText": "Open Dubai Trade"
+  },
+  {
+   "id": 108,
+   "category": "jafza",
+   "title": "Tasreeh visitor passes",
+   "sev": "ok",
+   "body": "Visitor, one-day, temporary (1 week to 6 months), permanent (1 year), tools and equipment (1 day to 3 months) and photography passes are issued through Tasreeh. Your host company normally requests them.",
+   "link": "https://www.tasreeh.ae",
+   "linkText": "Open Tasreeh"
+  },
+  {
+   "id": 109,
+   "category": "jafza",
+   "title": "Tools and equipment pass",
+   "sev": "warn",
+   "body": "Do not assume a tool bag, laptop and test rig will walk in. Ask your host company to arrange a tools and equipment pass before the visit and carry the printed or QR copy.",
+   "link": "https://www.tasreeh.ae",
+   "linkText": "Open Tasreeh"
+  },
+  {
+   "id": 110,
+   "category": "jafza",
+   "title": "Outward gate pass for hardware",
+   "sev": "alarm",
+   "body": "When taking calibrators, HART communicators, demo kits or spare I/O cards out of the free zone, get your client to issue a stamped outward material pass. Free zone to mainland movement can be inspected and delayed. Confirm the exact process with client logistics or a customs agent."
+  },
+  {
+   "id": 111,
+   "category": "jafza",
+   "title": "Gate numbers are not folklore",
+   "sev": "ok",
+   "body": "JAFZA has several gates and each host company uses specific ones. Ask your site contact which gate to use and the queue pattern. Do not rely on forum gate-number advice."
+  },
+  {
+   "id": 112,
+   "category": "jafza",
+   "title": "Expired cards",
+   "sev": "warn",
+   "body": "JAFZA says an expired TAC is cancelled automatically 30 days after expiry and must be re-applied for, not renewed. Renew before expiry, especially before shutdown campaigns."
+  },
+  {
+   "id": 113,
+   "category": "jafza",
+   "title": "Photography on site",
+   "sev": "warn",
+   "body": "Photographing plant, equipment or people needs a photography pass in JAFZA. Do not take site photos on your phone for handover notes unless your client approves.",
+   "link": "https://www.tasreeh.ae",
+   "linkText": "Open Tasreeh"
+  },
+  {
+   "id": 114,
+   "category": "jafza",
+   "title": "Digital ID card",
+   "sev": "ok",
+   "body": "The Jafza app lists adding employee ID and related cards to Apple Wallet. Ask HR whether your card type supports this."
+  },
+  {
+   "id": 115,
+   "category": "bedspace",
+   "title": "Partitions and sub-letting risk",
+   "sev": "alarm",
+   "body": "Ejari is issued to the main tenant only. Unauthorised partitions and sub-letting can breach building and municipality rules and leave you with no tenancy rights and a short eviction notice. Keep every receipt."
+  },
+  {
+   "id": 116,
+   "category": "bedspace",
+   "title": "Empower AC caps",
+   "sev": "warn",
+   "body": "In communities on district cooling, shared flats may limit or lock thermostats to cut bills. Ask in writing about AC hours and who controls the thermostat, especially if you sleep in the day after commissioning shifts."
+  },
+  {
+   "id": 117,
+   "category": "bedspace",
+   "title": "Walk the real route",
+   "sev": "ok",
+   "body": "Agents quote short walks to metro. Walk from the actual door to the platform at 2pm in summer and at 7am. Clusters farther from the station may need a feeder bus or a long hot walk, so check both options.",
+   "link": "https://www.rta.ae",
+   "linkText": "Open RTA"
+  },
+  {
+   "id": 118,
+   "category": "bedspace",
+   "title": "Loose LPG cylinders",
+   "sev": "alarm",
+   "body": "Avoid loose gas cylinders in shared and partitioned flats. Ask the landlord and building management about the rules and use an induction cooktop if permitted."
+  },
+  {
+   "id": 119,
+   "category": "bedspace",
+   "title": "Night noise test",
+   "sev": "ok",
+   "body": "Visit around 10pm and listen at the exact bed or partition. Thin walls and shared bathrooms are the biggest on-call sleep killers."
+  },
+  {
+   "id": 120,
+   "category": "bedspace",
+   "title": "Wi-Fi speed in your corner",
+   "sev": "tech",
+   "body": "Run a speed test at your bed or partition. Aim for stable upload and download for remote tools. Many remote engineering sessions suffer more from jitter and drops than from raw speed."
+  },
+  {
+   "id": 121,
+   "category": "scada",
+   "title": "VPN fallback over TCP 443",
+   "sev": "tech",
+   "body": "If your company VPN drops on home Wi-Fi, ask IT whether it supports an SSL or TCP 443 fallback. Some residential networks and mobile plans interfere with UDP based tunnels. Test before shutdown week."
+  },
+  {
+   "id": 122,
+   "category": "scada",
+   "title": "Lockable licence storage",
+   "sev": "alarm",
+   "body": "Keep USB licence dongles and activation keys in a lockable case or on your person, and keep a record of serials. Ask your vendor or IT how to recover a lost licence."
+  },
+  {
+   "id": 123,
+   "category": "scada",
+   "title": "Company APN or eSIM",
+   "sev": "tech",
+   "body": "Ask IT whether the company provides an APN, SIM or approved hotspot for plant access. Using a personal hotspot on a plant VPN may need approval."
+  },
+  {
+   "id": 124,
+   "category": "scada",
+   "title": "Rehearse the fallback",
+   "sev": "ok",
+   "body": "Before a shutdown, switch to your hotspot and connect to the VPN and HMI once. Do the test at your usual sleeping spot, not at the office."
+  },
+  {
+   "id": 125,
+   "category": "budget",
+   "title": "Price reality check",
+   "sev": "warn",
+   "body": "Ballpark community numbers (unverified): shared bedspace AED 750 to 1,100, executive bedspace 1,200 to 1,500, closed partition 1,500 to 1,900. Prices vary by cluster, season and what is included. Get three quotes and use the calculator."
+  },
+  {
+   "id": 126,
+   "category": "budget",
+   "title": "Deposit receipts",
+   "sev": "warn",
+   "body": "Deposits for bedspaces are often small, but get a written or WhatsApp receipt that states the refund terms and notice period."
+  },
+  {
+   "id": 127,
+   "category": "commute",
+   "title": "Wrong platform, lost 20 minutes",
+   "sev": "warn",
+   "body": "At Jabal Ali, check the platform display for your final destination. Route 2020 trains and Red Line trains toward Life Pharmacy (ex-UAE Exchange) use different platforms. Allow a buffer for the change, especially for a site start time."
+  },
+  {
+   "id": 128,
+   "category": "commute",
+   "title": "Return leg from JAFZA",
+   "sev": "ok",
+   "body": "Heading home, change at Jabal Ali again and pick the Route 2020 train toward Expo or Al Furjan. Check last-train times in the RTA app before a late shift."
+  },
+  {
+   "id": 129,
+   "category": "jafza",
+   "title": "Outward gate pass: what to prepare",
+   "sev": "alarm",
+   "body": "For test calibrators, PLC or I/O spares, HART communicators and laptops leaving JAFZA, ask your client logistics contact for a stamped outward material pass. Carry an equipment list with serial numbers and calibration certificates. Whether items return to the mainland, go to another site or are exported changes the paperwork, so confirm with the client or a customs agent before you move them."
+  },
+  {
+   "id": 130,
+   "category": "jafza",
+   "title": "Never carry client PLCs out informally",
+   "sev": "alarm",
+   "body": "Client-owned PLCs, spares or removable media should not leave the plant without the client's written release and gate paperwork. An unrecorded removal can become a security and customs problem for you personally."
+  },
+  {
+   "id": 131,
+   "category": "bedspace",
+   "title": "MDF partition acoustics",
+   "sev": "alarm",
+   "body": "Thin MDF or drywall partitions leak voices, alerts and snoring. If you take night-shift or 24/7 on-call duty, ask to sleep on the quietest wall, use foam earplugs plus a vibrating wearable for alerts, and agree call-out hours with neighbours. Do not add heavy soundproofing that blocks vents."
+  },
+  {
+   "id": 132,
+   "category": "bedspace",
+   "title": "Partition ventilation and fire safety",
+   "sev": "alarm",
+   "body": "Check that your partition does not seal you away from the AC supply, the window or the flat's smoke detector, and that the exit is not blocked. A closed box with no airflow gets hot, stuffy and unsafe. If it does, ask for a different space or leave."
+  },
+  {
+   "id": 133,
+   "category": "scada",
+   "title": "Dialling in over shared residential Wi-Fi",
+   "sev": "tech",
+   "body": "If your VPN to the plant DCS/SCADA network fails on shared Wi-Fi: (1) ask IT for an SSL/TCP 443 fallback profile, (2) test on your phone hotspot to isolate the Wi-Fi, (3) check the router is not saturated by roommates, (4) reconnect before a call-out. Use only company-approved VPN tools, never public proxies or unapproved tunnels."
+  }
+ ]
+}
