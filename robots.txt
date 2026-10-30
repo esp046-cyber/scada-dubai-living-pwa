@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://YOURUSER.github.io/scada-bedspacer-pwa/sitemap.xml

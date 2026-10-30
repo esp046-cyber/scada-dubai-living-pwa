@@ -1,0 +1,10 @@
+{
+ "name": "scada-bedspacer-pwa",
+ "version": "1.0.0",
+ "private": true,
+ "scripts": {
+  "start": "node backend/mock-server.js",
+  "test": "node tests/pwa.test.js"
+ },
+ "license": "MIT"
+}

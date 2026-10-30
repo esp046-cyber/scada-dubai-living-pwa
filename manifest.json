@@ -1,0 +1,38 @@
+{
+ "name": "SCADA Pioneer: Jebel Ali & Discovery Gardens Playbook",
+ "short_name": "SCADA Pioneer",
+ "description": "Bedspace, commute and on-call tips for SCADA engineers in Dubai.",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#0f172a",
+ "theme_color": "#0f172a",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ],
+ "screenshots": [
+  {
+   "src": "screenshots/mobile-preview.png",
+   "sizes": "390x844",
+   "type": "image/png",
+   "form_factor": "narrow"
+  },
+  {
+   "src": "screenshots/desktop-preview.png",
+   "sizes": "1280x720",
+   "type": "image/png",
+   "form_factor": "wide"
+  }
+ ]
+}
