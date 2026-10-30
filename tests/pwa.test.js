@@ -1,0 +1,16 @@
+const fs=require("fs"),path=require("path"),assert=require("assert");
+const root=path.join(__dirname,"..");
+const files=["index.html","offline.html","style.css","script.js","manifest.json","service-worker.js","favicon.ico","icon-192.png","icon-512.png","api/tips.json","assets/og-image.png","screenshots/mobile-preview.png","screenshots/desktop-preview.png"];
+files.forEach(f=>assert(fs.existsSync(path.join(root,f)),"missing "+f));
+const m=JSON.parse(fs.readFileSync(path.join(root,"manifest.json")));
+assert.strictEqual(m.display,"standalone");assert(m.icons.length>=2);
+const t=JSON.parse(fs.readFileSync(path.join(root,"api/tips.json")));
+assert(t.tips.length>=100,"need 100+ tips");
+const png=f=>fs.readFileSync(path.join(root,f)).slice(1,4).toString()==="PNG";
+assert(png("icon-192.png")&&png("icon-512.png"));
+console.log("All checks passed:",t.tips.length,"tips");
+const sp=fs.readFileSync(path.join(root,"assets/scada-icons.svg"),"utf8");
+["plc","metro","gate-pass","warning","lock","ac","calc","bookmark"].forEach(i=>assert(sp.includes('id="'+i+'"'),"icon "+i));
+assert(fs.readFileSync(path.join(root,"index.html"),"utf8").includes("initial-scale=1.0, viewport-fit=cover"));
+assert(fs.readFileSync(path.join(root,"style.css"),"utf8").includes("calc(10px + env(safe-area-inset-bottom))"));
+console.log("v3 checks passed");
